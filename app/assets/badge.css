@@ -1,0 +1,109 @@
+.badge {
+    padding: 0.25em 0.4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+
+.badge--normal {
+    background-color: #A8A77A;
+    color: #FFFFFF;
+}
+
+.badge--fighting {
+    background-color: #C22E28;
+    color: #FFFFFF;
+}
+
+.badge--flying {
+    background-color: #A98FF3;
+    color: #FFFFFF;
+}
+
+.badge--poison {
+    background-color: #A33EA1;
+    color: #FFFFFF;
+}
+
+.badge--ground {
+    background-color: #E2BF65;
+    color: #FFFFFF;
+}
+
+.badge--rock {
+    background-color: #B6A136;
+    color: #FFFFFF;
+}
+
+.badge--bug {
+    background-color: #A6B91A;
+    color: #FFFFFF;
+}
+
+.badge--ghost {
+    background-color: #735797;
+    color: #FFFFFF;
+}
+
+.badge--steel {
+    background-color: #B7B7CE;
+    color: #FFFFFF;
+}
+
+.badge--fire {
+    background-color: #EE8130;
+    color: #FFFFFF;
+}
+
+.badge--water {
+    background-color: #6390F0;
+    color: #FFFFFF;
+}
+
+.badge--grass {
+    background-color: #7AC74C;
+    color: #FFFFFF;
+}
+
+.badge--electric {
+    background-color: #F7D02C;
+    color: #FFFFFF;
+}
+
+.badge--psychic {
+    background-color: #F95587;
+    color: #FFFFFF;
+}
+
+.badge--ice {
+    background-color: #96D9D6;
+    color: #FFFFFF;
+}
+
+.badge--dragon {
+    background-color: #6F35FC;
+    color: #FFFFFF;
+}
+
+.badge--dark {
+    background-color: #705746;
+    color: #FFFFFF;
+}
+
+.badge--fairy {
+    background-color: #D685AD;
+    color: #FFFFFF;
+}
+
+.badge--unknown {
+    background-color: #68A090;
+    color: #FFFFFF;
+}
+
+.badge--shadow {
+    background-color: #707070;
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,22 @@
+.cardPokemon {
+    background-color: var(--cardColor);
+    color: var(--textCardColor);
+    border-radius: 10px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.cardPokemon:hover {
+    background-color: var(--hoverCard);
+    transform: scale(1.05);
+ }
+
+.cardPokemon > p {
+    font-size: 1rem;
+    font-weight: 700;
+}

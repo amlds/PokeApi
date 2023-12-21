@@ -3,25 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --background: #4A67B8;
+  --textColor: #FFFFFF;
+  --cardColor: #FFEAB3;
+  --textCardColor: #282301;
+  --hoverCard: #FF8F29;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--textColor);
+  background: var(--background);  
+  width: 100vw;
 }
+
+
+@import url('./assets/card.css');
+@import url('./assets/list-card.css');
+@import url('./assets/badge.css');
+@import url('./assets/pokemonView.css');
