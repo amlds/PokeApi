@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { IPokemon } from "@/services/pokemon-api/interfaces/IPokemon";
 import Link from "next/link";
 import Image from 'next/image';
-import { Badge } from "@/components/Badge";
+import { BadgeType } from "@/components/BadgeType";
 
 
 export default function PokemonPage({
@@ -19,7 +19,6 @@ export default function PokemonPage({
             const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${params.pokemonId}`);
             const pokemon = await data.json();
             setPokemon(pokemon);
-            console.log(pokemon);
         };
 
         fetchPokemon();
@@ -37,9 +36,9 @@ export default function PokemonPage({
                         <ul>
                             {
                                 pokemon.types.map((type, index) => (
-                                    <Badge key={index} color={type.type.name}>
+                                    <BadgeType key={index} color={type.type.name}>
                                         <li key={index}>{type.type.name}</li>
-                                    </Badge>
+                                    </BadgeType>
                                 ))
                             }
                         </ul>

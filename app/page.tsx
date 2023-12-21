@@ -13,7 +13,6 @@ export default function Home() {
       const data = await PokemonService.getPokemons();
       if (typeof data !== 'number') {
         setPokemons(data.results);
-        console.log(data.results);
       }
     };
 

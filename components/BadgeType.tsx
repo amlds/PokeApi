@@ -5,7 +5,7 @@ interface BadgeProps {
     color: string;
 }
 
-export const Badge: React.FC<BadgeProps> = ({ children, color }) => {
+export const BadgeType: React.FC<BadgeProps> = ({ children, color }) => {
     return (
         <span className={`badge badge--${color}`}>
             {children}

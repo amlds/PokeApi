@@ -20,7 +20,6 @@ export const Card: React.FC<CardProps> = ({ item }) => {
             const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${idUrl}`);
             const pokemon = await data.json();
             setPokemon(pokemon);
-            console.log(pokemon);
         };
 
         fetchPokemon();
